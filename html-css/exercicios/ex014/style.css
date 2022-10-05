@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(237, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: darkorchid;
+    background-color: goldenrod;
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    text-align: justify;
+}
