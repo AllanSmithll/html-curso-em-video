@@ -8,11 +8,34 @@
     <title>Fontes em CSS</title>
     <style>
         body {
-            font-family: serif;
+            font-family: Arial, Helvetica, sans-serif;
+        /* 
+        Medidas  absolutas
+        cm: centímetro; mm: milímetro; in: polegada; px: pixels; pt: ponto; pc: paica.
+
+        Medidas Relativas
+        em: altura relativa a m; ex: altura relativa a x; rem: altura relativa ao root; vw: largura da viewport (da tela); vh: altura da viewport.
+
+        RECOMENDAÇÃO W3C: Usar px e em.
+
+        obs: 16px deralmente é 1em
+        */
+            font-size: 1em;
+
+            /* light, normal, bold, bolder */
         }
 
-        h1, h2 {
-            font-family: sans-serif;
+        h1 {
+
+            /* shorthand font 
+            
+            font-style -> font-weight -> font-size -> font-family. Veja abaixo:
+            */
+            font: italic bolder 3em sans-serif;
+        }
+
+        h2 {
+            font: bold 2em sans-serif;
         }
     </style>
 </head>
