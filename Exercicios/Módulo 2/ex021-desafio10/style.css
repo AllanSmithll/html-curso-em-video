@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --verdeMuitoClaro: #c5ebd6;
+    --verdeClaro: #83e1ad;
+    --verdeNormalAndroid: #3ddc84;
+    --verdeEscuro: #2fa866;
+    --verdeMuitoEscuro: #063d1e;
+}
+
+@font-face {
+    font-family: 'iDroid';
+    src: url('IDroid.otf') format('opentype');
+} 
+
+body {
+    font-family: iDroid, sans-serif;
+}
