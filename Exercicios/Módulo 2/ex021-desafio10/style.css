@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
 
 :root {
     --verdeMuitoClaro: #c5ebd6;
@@ -6,13 +6,24 @@
     --verdeNormalAndroid: #3ddc84;
     --verdeEscuro: #2fa866;
     --verdeMuitoEscuro: #063d1e;
+    --fontA: Arial, Helvetica, sans-serif;
+    --fontB: 'Bebas Neue', cursive;
+    --fontC: 'Righteous', cursive;
 }
 
-@font-face {
-    font-family: 'iDroid';
-    src: url('IDroid.otf') format('opentype');
-} 
+header > h1 {
+    font-family: var(--fontB);
+    text-align: center;
+}
 
-body {
-    font-family: iDroid, sans-serif;
+header, nav {
+    background-color: var(--verdeEscuro);
+    color: #fff8f8;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+p {
+    font-family: var(--fontA)!important;
+    text-align: center;
 }
